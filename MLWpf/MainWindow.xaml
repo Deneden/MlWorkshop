@@ -1,0 +1,16 @@
+﻿<Window x:Class="MLWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MLWpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="0,0,389,201">
+        <Border BorderBrush="DarkGray" BorderThickness="1" Margin="10,10,61,-191">
+            <Image Name="ImgViewer" />
+        </Border>
+        <Button Content="Выбрать"  Click="OpenImageButton" Height="40" VerticalAlignment="Top" HorizontalAlignment="Right" Width="309" Margin="0,0,-326,182"/>
+        <TextBlock Name="PredictionText" Text="--result--" TextAlignment="Center" Height="40" VerticalAlignment="Top" HorizontalAlignment="Right" Width="309" Margin="428,79,-326,131" RenderTransformOrigin="0.791,0.445" />
+    </Grid>
+</Window>

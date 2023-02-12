@@ -1,6 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MlWorkshop", "MlWorkshop\MlWorkshop.csproj", "{210182C4-563A-4615-B0B4-1B811030D0BD}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLWpf", "MLWpf\MLWpf.csproj", "{A6CC2962-4D9B-4404-8961-8F4581BDE46B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{210182C4-563A-4615-B0B4-1B811030D0BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{210182C4-563A-4615-B0B4-1B811030D0BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{210182C4-563A-4615-B0B4-1B811030D0BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{210182C4-563A-4615-B0B4-1B811030D0BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6CC2962-4D9B-4404-8961-8F4581BDE46B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6CC2962-4D9B-4404-8961-8F4581BDE46B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6CC2962-4D9B-4404-8961-8F4581BDE46B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6CC2962-4D9B-4404-8961-8F4581BDE46B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B3495244-C0BF-46A5-A1F8-1AB45499B7F7}
 	EndGlobalSection
 EndGlobal

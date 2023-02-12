@@ -1,6 +1,7 @@
 ﻿using Microsoft.Win32;
 using System;
 using System.IO;
+using System.Linq;
 using System.Windows;
 using System.Windows.Media.Imaging;
 
@@ -30,7 +31,17 @@ namespace MLWpf
             var fileName = openFile.FileName;
 
             ImgViewer.Source = new BitmapImage(new Uri(fileName));
+
+            var file = File.ReadAllBytes(fileName);
             
+            var sampleData = new RickAndMortyTrain.ConsoleApp.RickAndMortyTrain.ModelInput
+            {
+                ImageSource = file
+            };
+            
+            var predictionResult = RickAndMortyTrain.ConsoleApp.RickAndMortyTrain.Predict(sampleData);
+
+            PredictionText.Text = $"{predictionResult.PredictedLabel} - {predictionResult.Score.Max():p0}";
         }
     }
 }

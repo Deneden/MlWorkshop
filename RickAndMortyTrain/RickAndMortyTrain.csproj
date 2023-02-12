@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ML" Version="1.7.1" />
+    <PackageReference Include="Microsoft.ML.Vision" Version="1.7.1" />
+    <PackageReference Include="SciSharp.TensorFlow.Redist" Version="2.3.1" />
+  </ItemGroup>
+  <ItemGroup Label="RickAndMortyTrain">
+    <None Include="RickAndMortyTrain.consumption.cs">
+      <DependentUpon>RickAndMortyTrain.mbconfig</DependentUpon>
+    </None>
+    <None Include="RickAndMortyTrain.training.cs">
+      <DependentUpon>RickAndMortyTrain.mbconfig</DependentUpon>
+    </None>
+    <None Include="RickAndMortyTrain.zip">
+      <DependentUpon>RickAndMortyTrain.mbconfig</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

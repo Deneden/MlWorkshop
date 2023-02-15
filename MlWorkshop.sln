@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLWpf", "MLWpf\MLWpf.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RickAndMortyTrain", "RickAndMortyTrain\RickAndMortyTrain.csproj", "{D19AB4CF-C880-4783-97ED-1A2694D24850}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLConsole", "MLConsole\MLConsole.csproj", "{17F0FE4E-348C-447C-8968-716D6F1D2F55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D19AB4CF-C880-4783-97ED-1A2694D24850}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D19AB4CF-C880-4783-97ED-1A2694D24850}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D19AB4CF-C880-4783-97ED-1A2694D24850}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17F0FE4E-348C-447C-8968-716D6F1D2F55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17F0FE4E-348C-447C-8968-716D6F1D2F55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17F0FE4E-348C-447C-8968-716D6F1D2F55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17F0FE4E-348C-447C-8968-716D6F1D2F55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

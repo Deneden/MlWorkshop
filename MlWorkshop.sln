@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RickAndMortyTrain", "RickAn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLConsole", "MLConsole\MLConsole.csproj", "{17F0FE4E-348C-447C-8968-716D6F1D2F55}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPTConsole", "GPTConsole\GPTConsole.csproj", "{886185B8-CF0F-4FBA-9A0B-E18787735A78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{17F0FE4E-348C-447C-8968-716D6F1D2F55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17F0FE4E-348C-447C-8968-716D6F1D2F55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17F0FE4E-348C-447C-8968-716D6F1D2F55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{886185B8-CF0F-4FBA-9A0B-E18787735A78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{886185B8-CF0F-4FBA-9A0B-E18787735A78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{886185B8-CF0F-4FBA-9A0B-E18787735A78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{886185B8-CF0F-4FBA-9A0B-E18787735A78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
